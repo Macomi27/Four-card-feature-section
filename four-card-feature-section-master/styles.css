@@ -15,6 +15,12 @@ html{
     font-family: Poppins;
     padding-block: 3rem;
     font-weight: 400;
+
+    @media (min-width:45rem) {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
 }
 
 .summary{
@@ -22,6 +28,10 @@ html{
     margin-inline: auto;
     text-align: center;
     margin-bottom: 4.5rem;
+
+    @media (min-width:45rem) {
+        width: 40%;
+    }
 }
 
 .sum-head{
@@ -52,6 +62,12 @@ p{
     flex-direction: column;
     gap: 3rem;
     margin-bottom: 3rem;
+
+    @media (min-width:45rem) {
+        width: 75%;
+        position: relative;
+
+    }
 }
 
 img{
@@ -59,26 +75,49 @@ img{
 }
 
 .box{
-    width: 100%;
     border-radius: 1rem;
     padding: 2.5rem 3rem 4rem 3rem;
     box-shadow: .1rem .2rem 2rem hsl(210, 5%, 78%);
+
+    @media (min-width:45rem) {
+        width: 40%;
+        position: absolute;
+        margin: 2rem;
+    }
 }
 
 .cyan{
     border-top: .5rem solid hsl(180, 62%, 55%);
+
+    @media (min-width:45rem) {
+        left: 0;
+    }
 }
 
 .red{
     border-top: .5rem solid hsl(0, 78%, 62%);
+
+    @media (min-width:45rem) {
+        top: 20%;
+        left: 30%;
+    }
 }
 
 .orange{
     border-top: .5rem solid hsl(34, 97%, 64%);
+
+    @media (min-width:45rem) {
+        bottom: 0;
+        left: 30%;
+    }
 }
 
 .blue{
     border-top: .5rem solid hsl(212, 86%, 64%);
+
+    @media (min-width:45rem) {
+        right: 0;
+    }
 }
 
 .box-sum{
