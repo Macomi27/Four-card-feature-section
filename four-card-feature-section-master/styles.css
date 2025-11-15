@@ -66,7 +66,7 @@ img {
 
 .box {
   border-radius: 1rem;
-  padding: 2.5rem 3rem 4rem 3rem;
+  padding: 2.5rem;
   box-shadow: 0.1rem 0.2rem 2rem hsl(210, 5%, 78%);
 }
 
@@ -108,10 +108,10 @@ img {
 
 @media (min-width: 47rem) {
   .sum-head > p {
-    font-size: 2.4rem;
+    font-size: 3.2rem;
   }
   .sum-head h2 {
-    font-size: 2.4rem;
+    font-size: 3.2rem;
   }
 
   .summary {
@@ -119,7 +119,7 @@ img {
   }
 
   .divisions {
-    width: 80%;
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, auto);
