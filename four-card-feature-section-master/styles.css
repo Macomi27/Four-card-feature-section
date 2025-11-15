@@ -107,15 +107,23 @@ img {
 }
 
 @media (min-width: 47rem) {
+  .sum-head > p {
+    font-size: 2.4rem;
+  }
+  .sum-head h2 {
+    font-size: 2.4rem;
+  }
+
   .summary {
     width: 40%;
   }
 
   .divisions {
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, auto);
-    gap: 2rem;
+    gap: 3rem;
   }
 
   .box.cyan {
